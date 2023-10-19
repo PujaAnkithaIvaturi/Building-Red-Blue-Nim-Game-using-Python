@@ -1,0 +1,6 @@
+Reasoning behind the evaluation function used:
+In the implementation of the depth_limited_minimax function, we used the evaluate_score function to evaluate the current state of the game. This function calculates a score for the current state of the game based on the number of marbles remaining in each pile. If the maximizing player is the computer, it returns a negative score to indicate that the computer prefers to minimize the score. If the maximizing player is the human player, it returns a positive score to indicate that the human player prefers to maximize the score.
+
+
+
+
